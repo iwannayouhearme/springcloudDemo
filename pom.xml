@@ -16,6 +16,10 @@
     <modules>
         <module>Eureka-Server</module>
         <module>Eureka-Client</module>
+        <module>Config-Server</module>
+        <module>Service-Feign</module>
+        <module>Service-Ribbon</module>
+        <module>Service-Zuul</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Config-Server" />
         <module name="Eureka-Client" />
         <module name="Eureka-Server" />
         <module name="Service-Feign" />
@@ -15,6 +16,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Config-Server" target="1.8" />
       <module name="Eureka-Client" target="1.8" />
       <module name="Eureka-Server" target="1.8" />
       <module name="Service-Feign" target="1.8" />

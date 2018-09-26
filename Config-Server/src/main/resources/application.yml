@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/fhhly/SpringCloudConfig
+          username:
+          password:
+          search-paths: dev
+      label: master
+server:
+  port: 8888

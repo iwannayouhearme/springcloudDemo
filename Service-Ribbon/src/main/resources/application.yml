@@ -1,10 +1,11 @@
 server:
   port: 8764
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
 spring:
+  cloud:
+    config:
+      label: master
+      uri: http://localhost:8888/
+      profile: dev
   application:
     name: service-ribbon
 

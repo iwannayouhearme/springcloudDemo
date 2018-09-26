@@ -1,10 +1,12 @@
 server:
   port: 8762
 spring:
+  cloud:
+    config:
+      label: master
+      uri: http://localhost:8888/
+      profile: dev
   application:
     name: eureka-client
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+
 
