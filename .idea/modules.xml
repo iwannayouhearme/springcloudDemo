@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Eureka-Client/Eureka-Client.iml" filepath="$PROJECT_DIR$/Eureka-Client/Eureka-Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eureka-Server/Eureka-Server.iml" filepath="$PROJECT_DIR$/Eureka-Server/Eureka-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Service-Feign/Service-Feign.iml" filepath="$PROJECT_DIR$/Service-Feign/Service-Feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Service-Ribbon/Service-Ribbon.iml" filepath="$PROJECT_DIR$/Service-Ribbon/Service-Ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudDemo.iml" filepath="$PROJECT_DIR$/springcloudDemo.iml" />
+    </modules>
+  </component>
+</project>
