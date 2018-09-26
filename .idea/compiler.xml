@@ -10,6 +10,7 @@
         <module name="Eureka-Server" />
         <module name="Service-Feign" />
         <module name="Service-Ribbon" />
+        <module name="Service-Zuul" />
         <module name="springcloudDemo" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="Eureka-Server" target="1.8" />
       <module name="Service-Feign" target="1.8" />
       <module name="Service-Ribbon" target="1.8" />
+      <module name="Service-Zuul" target="1.8" />
       <module name="springcloudDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
