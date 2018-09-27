@@ -6,5 +6,18 @@ spring:
       label: master
       uri: http://localhost:8888/
       profile: dev
+    bus:
+      trace:
+        enabled: true
+      enabled: true
   application:
     name: eureka-server
+  rabbitmq:
+    host: 139.199.160.101
+    username: admin
+    password: admin
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

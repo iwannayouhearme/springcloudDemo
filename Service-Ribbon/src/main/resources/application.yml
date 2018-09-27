@@ -1,11 +1,23 @@
 server:
   port: 8764
 spring:
+  application:
+      name: service-ribbon
   cloud:
     config:
       label: master
       uri: http://localhost:8888/
       profile: dev
-  application:
-    name: service-ribbon
-
+    bus:
+      trace:
+        enabled: true
+      enabled: true
+  rabbitmq:
+    host: 139.199.160.101
+    username: admin
+    password: admin
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

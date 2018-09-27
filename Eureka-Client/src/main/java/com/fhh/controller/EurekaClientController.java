@@ -13,9 +13,16 @@ import org.springframework.web.bind.annotation.RestController;
 public class EurekaClientController {
     @Value("${server.port}")
     String port;
+    @Value("${test}")
+    String defaultZone;
 
     @RequestMapping("/hi")
     public String home(@RequestParam(value = "name") String name) {
         return "hi " + name + " ,i am from port:" + port;
+    }
+
+    @RequestMapping("/getValue")
+    public String getValue(){
+        return defaultZone;
     }
 }

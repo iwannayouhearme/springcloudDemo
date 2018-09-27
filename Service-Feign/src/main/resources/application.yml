@@ -6,6 +6,18 @@ spring:
       label: master
       uri: http://localhost:8888/
       profile: dev
+    bus:
+      enabled: true
+      trace:
+        enabled: true
   application:
     name: service-feign
-
+  rabbitmq:
+    host: 139.199.160.101
+    username: admin
+    password: admin
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
