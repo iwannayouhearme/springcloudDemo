@@ -13,6 +13,8 @@
         <module name="Service-Ribbon" />
         <module name="Service-Zuul" />
         <module name="springcloudDemo" />
+        <module name="ZipkinServer-Service-Fhh" />
+        <module name="ZipkinServer-Service-Hi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +25,8 @@
       <module name="Service-Ribbon" target="1.8" />
       <module name="Service-Zuul" target="1.8" />
       <module name="springcloudDemo" target="1.8" />
+      <module name="ZipkinServer-Service-Fhh" target="1.8" />
+      <module name="ZipkinServer-Service-Hi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

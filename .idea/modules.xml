@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/Service-Feign/Service-Feign.iml" filepath="$PROJECT_DIR$/Service-Feign/Service-Feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/Service-Ribbon/Service-Ribbon.iml" filepath="$PROJECT_DIR$/Service-Ribbon/Service-Ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/Service-Zuul/Service-Zuul.iml" filepath="$PROJECT_DIR$/Service-Zuul/Service-Zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZipkinServer-Service-Fhh/ZipkinServer-Service-Fhh.iml" filepath="$PROJECT_DIR$/ZipkinServer-Service-Fhh/ZipkinServer-Service-Fhh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZipkinServer-Service-Hi/ZipkinServer-Service-Hi.iml" filepath="$PROJECT_DIR$/ZipkinServer-Service-Hi/ZipkinServer-Service-Hi.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloudDemo.iml" filepath="$PROJECT_DIR$/springcloudDemo.iml" />
     </modules>
   </component>

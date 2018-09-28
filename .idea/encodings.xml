@@ -8,5 +8,7 @@
     <file url="file://$PROJECT_DIR$/Service-Feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Service-Ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Service-Zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ZipkinServer-Service-Fhh" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ZipkinServer-Service-Hi" charset="UTF-8" />
   </component>
 </project>
