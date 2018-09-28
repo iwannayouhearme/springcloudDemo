@@ -13,7 +13,7 @@ spring:
   application:
     name: service-feign
   rabbitmq:
-    host: 127.0.0.1
+    host: 139.199.160.101
     username: admin
     password: admin
 management:
